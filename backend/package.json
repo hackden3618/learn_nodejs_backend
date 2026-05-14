@@ -1,0 +1,15 @@
+{
+  "name": "learn_backend_nodejs",
+  "version": "1.0.0",
+  "description": "Learning Backend Programming",
+  "license": "ISC",
+  "author": "hackden3618",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
