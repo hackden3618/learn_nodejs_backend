@@ -1,15 +1,20 @@
 {
-  "name": "learn_backend_nodejs",
+  "name": "backend",
   "version": "1.0.0",
-  "description": "Learning Backend Programming",
+  "description": "Learning about Backend development",
   "license": "ISC",
   "author": "hackden3618",
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+      "start": "node src/index.js",
+      "dev": "nodemon src/index.js",
+    "test": "node src/test.js"
   },
   "dependencies": {
-    "express": "^5.2.1"
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "mongoose": "^9.6.2",
+    "nodemon": "^3.1.14"
   }
 }
